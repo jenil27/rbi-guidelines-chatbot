@@ -1,0 +1,23 @@
+# Environment
+.env
+venv/
+__pycache__/
+
+# Jupyter junk
+.ipynb_checkpoints/
+*.ipynb
+
+# Gradio cache
+.gradio/
+
+# Vector store / DB files
+*.sqlite3
+chroma.sqlite3
+0700b82b-*/
+
+# PDF (don't commit actual documents)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
